@@ -3,6 +3,8 @@
 _Category: shell_  
 _Generated on 2016-02-25_
 
+[source](http://www.shellhacks.com/en/Check-a-Website-Response-Time-from-the-Linux-Command-Line)
+
 ## Total website response time
 
 ```
