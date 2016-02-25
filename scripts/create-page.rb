@@ -1,28 +1,36 @@
 #!/usr/bin/env ruby
 
+require 'yaml'
+require_relative './page'
+
 page = ARGV[0]
 puts "Creating #{page}"
 
 category = File.dirname page
-name = File.basename page
+name = File.basename(page).tr('-', '_')
+title = name.tr('_', ' ').tr('-', ' ').capitalize
 date = `date +%Y-%m-%d`.strip
-
 path = "tils/#{category}/#{date}-#{name}.md"
 
 puts "New file at #{path}"
+
+page = Page.new(category, date, title, path)
+# puts page.inspect
 
 `mkdir -p #{File.dirname(path)}`
 `touch #{path}`
 
 header = <<EOF
-# #{page}
+# #{title}
  
+_Category: #{category}_
 _Generated on #{date}_
-
 
 EOF
 
 File.open(path, 'w') { |file| file.write header }
 
-pages = File.open('.pages.txt').readlines.push("#{category}, #{date}, #{name}, #{path}").sort.uniq.join("\n")
-File.open('.pages.txt', 'w') { |file| file.write pages }
+pages = YAML.load_file('.pages.yml') || []
+pages << page
+pages.sort_by!(&:category).uniq!(&:title)
+File.open('.pages.yml', 'w') {|f| f.write pages.to_yaml }

@@ -1,5 +1,6 @@
-# crystal/discovery
- 
+# discovery
+
+_Category: crystal_
 _Generated on 2016-02-23_
 
 Today I discovered Crystal, a statically typed compiled language based on the Ruby

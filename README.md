@@ -6,9 +6,9 @@ learned.
 
 # crystal
 
-- [discovery](tils/crystal/2016-02-23-discovery.md) on 2016-02-23
+- [Discovery](tils/crystal/2016-02-23-discovery.md) on 2016-02-23
 
 # devops
 
-- [anyenv](tils/devops/2016-02-23-anyenv.md) on 2016-02-23
+- [Anyenv](tils/devops/2016-02-23-anyenv.md) on 2016-02-23
 

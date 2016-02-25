@@ -1,0 +1,16 @@
+---
+- !ruby/struct:Page
+  category: crystal
+  date: '2016-02-23'
+  title: Discovery
+  path: tils/crystal/2016-02-23-discovery.md
+- !ruby/struct:Page
+  category: devops
+  date: '2016-02-23'
+  title: Anyenv
+  path: tils/devops/2016-02-23-anyenv.md
+- !ruby/struct:Page
+  category: shell
+  date: '2016-02-25'
+  title: Check website response time
+  path: tils/shell/2016-02-25-check_website_response_time.md

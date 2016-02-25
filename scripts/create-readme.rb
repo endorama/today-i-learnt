@@ -1,19 +1,12 @@
 #!/usr/bin/env ruby
 
-tils = []
+require 'yaml'
+require_relative './page'
 
-print "Generating README.md "
+print 'Generating README.md '
 
-File.open('.pages.txt').each_line do |line|
-  print '.'
-  line = line.split(', ')
-  tils << {
-    category: line[0],
-    date: line[1],
-    name: line[2],
-    path: line[3]
-  }
-end
+tils = YAML.load_file('.pages.yml') || []
+puts tils.inspect
 
 content = <<EOF
 # TIL - Today I Learned
@@ -24,15 +17,17 @@ learned.
 
 EOF
 
-grouped_tils = tils.group_by { |t| t[:category] }
+grouped_tils = tils.group_by(&:category)
 grouped_tils.each do |category, entries|
   content += "# #{category}\n\n"
   entries.each do |e|
-    content += "- [#{e[:name]}](#{e[:path].strip}) on #{e[:date]}\n"
+    print '.'
+    puts "'#{e.title}'"
+    content += "- [#{e.title}](#{e.path.strip}) on #{e.date}\n"
   end
   content += "\n"
 end
 
 File.open('README.md', 'w') { |file| file.write content }
 
-puts " DONE"
+puts ' DONE'
