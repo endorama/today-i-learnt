@@ -16,6 +16,10 @@ learned.
 
 - [Anyenv](tils/devops/2016-02-23-anyenv.md) on 2016-02-23
 
+# rails
+
+- [Vulnerability scanner](tils/rails/2016-02-26-vulnerability_scanner.md) on 2016-02-26
+
 # shell
 
 - [Check website response time](tils/shell/2016-02-25-check_website_response_time.md) on 2016-02-25

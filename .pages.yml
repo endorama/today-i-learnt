@@ -15,6 +15,11 @@
   title: Anyenv
   path: tils/devops/2016-02-23-anyenv.md
 - !ruby/struct:Page
+  category: rails
+  date: '2016-02-26'
+  title: Vulnerability scanner
+  path: tils/rails/2016-02-26-vulnerability_scanner.md
+- !ruby/struct:Page
   category: shell
   date: '2016-02-25'
   title: Check website response time
