@@ -1,5 +1,10 @@
 ---
 - !ruby/struct:Page
+  category: anyenv
+  date: '2016-02-26'
+  title: Change language version
+  path: tils/anyenv/2016-02-26-change_language_version.md
+- !ruby/struct:Page
   category: crystal
   date: '2016-02-23'
   title: Discovery

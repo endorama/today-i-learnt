@@ -4,6 +4,10 @@ From an awesome idea got from [jbranchaud](https://github.com/jbranchaud/til), a
 repository to collect all the today I learned about the more different topics I
 learned.
 
+# anyenv
+
+- [Change language version](tils/anyenv/2016-02-26-change_language_version.md) on 2016-02-26
+
 # crystal
 
 - [Discovery](tils/crystal/2016-02-23-discovery.md) on 2016-02-23
