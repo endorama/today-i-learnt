@@ -20,6 +20,11 @@
   title: Vulnerability scanner
   path: tils/rails/2016-02-26-vulnerability_scanner.md
 - !ruby/struct:Page
+  category: rails
+  date: '2016-02-26'
+  title: Security
+  path: tils/rails/2016-02-26-security.md
+- !ruby/struct:Page
   category: shell
   date: '2016-02-25'
   title: Check website response time
