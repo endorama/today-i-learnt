@@ -29,3 +29,8 @@
   date: '2016-02-25'
   title: Check website response time
   path: tils/shell/2016-02-25-check_website_response_time.md
+- !ruby/struct:Page
+  category: sysadmin
+  date: '2016-03-08'
+  title: All mac addresses in LAN
+  path: tils/sysadmin/2016-03-08-all_mac_addresses_in_lan.md
