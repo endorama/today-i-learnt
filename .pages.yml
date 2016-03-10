@@ -1,5 +1,10 @@
 ---
 - !ruby/struct:Page
+  category: ansible
+  date: '2016-03-10'
+  title: Reboot on system upgrade
+  path: tils/ansible/2016-03-10-reboot_on_system_upgrade.md
+- !ruby/struct:Page
   category: anyenv
   date: '2016-02-26'
   title: Change language version
