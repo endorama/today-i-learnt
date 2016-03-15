@@ -20,6 +20,10 @@ learned.
 
 - [Anyenv](tils/devops/2016-02-23-anyenv.md) on 2016-02-23
 
+# mysql
+
+- [Mysqldump permissions](tils/mysql/2016-03-15-mysqldump_permissions.md) on 2016-03-15
+
 # rails
 
 - [Vulnerability scanner](tils/rails/2016-02-26-vulnerability_scanner.md) on 2016-02-26

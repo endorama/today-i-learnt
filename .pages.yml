@@ -20,6 +20,11 @@
   title: Anyenv
   path: tils/devops/2016-02-23-anyenv.md
 - !ruby/struct:Page
+  category: mysql
+  date: '2016-03-15'
+  title: Mysqldump permissions
+  path: tils/mysql/2016-03-15-mysqldump_permissions.md
+- !ruby/struct:Page
   category: rails
   date: '2016-02-26'
   title: Vulnerability scanner
