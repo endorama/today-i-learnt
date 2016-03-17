@@ -35,6 +35,11 @@
   title: Security
   path: tils/rails/2016-02-26-security.md
 - !ruby/struct:Page
+  category: rails
+  date: '2016-03-17'
+  title: Rake tasks specs
+  path: tils/rails/2016-03-17-rake_tasks_specs.md
+- !ruby/struct:Page
   category: shell
   date: '2016-02-25'
   title: Check website response time

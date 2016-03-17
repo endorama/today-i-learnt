@@ -28,6 +28,7 @@ learned.
 
 - [Vulnerability scanner](tils/rails/2016-02-26-vulnerability_scanner.md) on 2016-02-26
 - [Security](tils/rails/2016-02-26-security.md) on 2016-02-26
+- [Rake tasks specs](tils/rails/2016-03-17-rake_tasks_specs.md) on 2016-03-17
 
 # shell
 
