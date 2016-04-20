@@ -49,3 +49,8 @@
   date: '2016-03-08'
   title: All mac addresses in LAN
   path: tils/sysadmin/2016-03-08-all_mac_addresses_in_lan.md
+- !ruby/struct:Page
+  category: sysadmin
+  date: '2016-04-20'
+  title: Uefi external hd boot
+  path: tils/sysadmin/2016-04-20-uefi_external_hd_boot.md

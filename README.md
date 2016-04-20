@@ -37,4 +37,6 @@ learned.
 # sysadmin
 
 - [All mac addresses in LAN](tils/sysadmin/2016-03-08-all_mac_addresses_in_lan.md) on 2016-03-08
+- [Uefi external hd boot](tils/sysadmin/2016-04-20-uefi_external_hd_boot.md) on 2016-04-20
+
 
