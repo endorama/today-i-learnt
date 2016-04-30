@@ -4,6 +4,10 @@ From an awesome idea got from [jbranchaud](https://github.com/jbranchaud/til), a
 repository to collect all the today I learned about the more different topics I
 learned.
 
+# android
+
+- [Opo factory restore](tils/android/2016-04-30-opo_factory_restore.md) on 2016-04-30
+
 # ansible
 
 - [Reboot on system upgrade](tils/ansible/2016-03-10-reboot_on_system_upgrade.md) on 2016-03-10

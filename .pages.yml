@@ -1,5 +1,10 @@
 ---
 - !ruby/struct:Page
+  category: android
+  date: '2016-04-30'
+  title: Opo factory restore
+  path: tils/android/2016-04-30-opo_factory_restore.md
+- !ruby/struct:Page
   category: ansible
   date: '2016-03-10'
   title: Reboot on system upgrade
