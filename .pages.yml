@@ -65,6 +65,11 @@
   title: Change file timestamps
   path: tils/sysadmin/2016-04-20-change_file_timestamps.md
 - !ruby/struct:Page
+  category: sysadmin
+  date: '2016-07-12'
+  title: Get debconf available selections
+  path: tils/sysadmin/2016-07-12-get_debconf_available_selections.md
+- !ruby/struct:Page
   category: video
   date: '2016-04-20'
   title: Concatenating video files

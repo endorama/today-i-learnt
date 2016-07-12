@@ -43,6 +43,7 @@ learned.
 - [All mac addresses in LAN](tils/sysadmin/2016-03-08-all_mac_addresses_in_lan.md) on 2016-03-08
 - [Uefi external hd boot](tils/sysadmin/2016-04-20-uefi_external_hd_boot.md) on 2016-04-20
 - [Change file timestamps](tils/sysadmin/2016-04-20-change_file_timestamps.md) on 2016-04-20
+- [Get debconf available selections](tils/sysadmin/2016-07-12-get_debconf_available_selections.md) on 2016-07-12
 
 # video
 
