@@ -70,6 +70,11 @@
   title: Get debconf available selections
   path: tils/sysadmin/2016-07-12-get_debconf_available_selections.md
 - !ruby/struct:Page
+  category: tils/sysadmin
+  date: '2016-09-29'
+  title: View last successfull and failed login attempts
+  path: tils/tils/sysadmin/2016-09-29-view_last_successfull_and_failed_login_attempts.md
+- !ruby/struct:Page
   category: video
   date: '2016-04-20'
   title: Concatenating video files
