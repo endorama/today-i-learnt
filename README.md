@@ -48,6 +48,7 @@ learned.
 - [Uefi external hd boot](tils/sysadmin/2016-04-20-uefi_external_hd_boot.md) on 2016-04-20
 - [Change file timestamps](tils/sysadmin/2016-04-20-change_file_timestamps.md) on 2016-04-20
 - [Get debconf available selections](tils/sysadmin/2016-07-12-get_debconf_available_selections.md) on 2016-07-12
+- [See bandwith usage per process](tils/sysadmin/2016-12-06-see_bandwith_usage_per_process.md) on 2016-12-06
 
 # tils/sysadmin
 

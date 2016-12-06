@@ -75,6 +75,11 @@
   title: Get debconf available selections
   path: tils/sysadmin/2016-07-12-get_debconf_available_selections.md
 - !ruby/struct:Page
+  category: sysadmin
+  date: '2016-12-06'
+  title: See bandwith usage per process
+  path: tils/sysadmin/2016-12-06-see_bandwith_usage_per_process.md
+- !ruby/struct:Page
   category: tils/sysadmin
   date: '2016-09-29'
   title: View last successfull and failed login attempts
