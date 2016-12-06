@@ -25,6 +25,11 @@
   title: Anyenv
   path: tils/devops/2016-02-23-anyenv.md
 - !ruby/struct:Page
+  category: inkscape
+  date: '2016-12-06'
+  title: Resize svg drawing to canvas
+  path: tils/inkscape/2016-12-06-resize_svg_drawing_to_canvas.md
+- !ruby/struct:Page
   category: mysql
   date: '2016-03-15'
   title: Mysqldump permissions
