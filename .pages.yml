@@ -80,6 +80,11 @@
   title: See bandwith usage per process
   path: tils/sysadmin/2016-12-06-see_bandwith_usage_per_process.md
 - !ruby/struct:Page
+  category: sysadmin
+  date: '2016-12-07'
+  title: Show processes using files
+  path: tils/sysadmin/2016-12-07-show_processes_using_files.md
+- !ruby/struct:Page
   category: tils/sysadmin
   date: '2016-09-29'
   title: View last successfull and failed login attempts
