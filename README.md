@@ -24,6 +24,10 @@ learned.
 
 - [Anyenv](tils/devops/2016-02-23-anyenv.md) on 2016-02-23
 
+# git
+
+- [Export patch from stash](tils/git/2016-12-23-export_patch_from_stash.md) on 2016-12-23
+
 # inkscape
 
 - [Resize svg drawing to canvas](tils/inkscape/2016-12-06-resize_svg_drawing_to_canvas.md) on 2016-12-06

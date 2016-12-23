@@ -25,6 +25,11 @@
   title: Anyenv
   path: tils/devops/2016-02-23-anyenv.md
 - !ruby/struct:Page
+  category: git
+  date: '2016-12-23'
+  title: Export patch from stash
+  path: tils/git/2016-12-23-export_patch_from_stash.md
+- !ruby/struct:Page
   category: inkscape
   date: '2016-12-06'
   title: Resize svg drawing to canvas
