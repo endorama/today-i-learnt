@@ -7,7 +7,7 @@ page = ARGV[0]
 puts "Creating #{page}"
 
 category = File.dirname page
-name = File.basename(page).tr('-', '_')
+name = File.basename(page).tr('-', '_').downcase
 title = name.tr('_', ' ').tr('-', ' ').capitalize
 date = `date +%Y-%m-%d`.strip
 path = "tils/#{category}/#{date}-#{name}.md"

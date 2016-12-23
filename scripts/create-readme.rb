@@ -22,7 +22,7 @@ grouped_tils.each do |category, entries|
   content += "# #{category}\n\n"
   entries.each do |e|
     print '.'
-    puts "'#{e.title}'"
+    # puts "'#{e.title}'"
     content += "- [#{e.title}](#{e.path.strip}) on #{e.date}\n"
   end
   content += "\n"
