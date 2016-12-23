@@ -54,6 +54,7 @@ learned.
 - [Get debconf available selections](tils/sysadmin/2016-07-12-get_debconf_available_selections.md) on 2016-07-12
 - [See bandwith usage per process](tils/sysadmin/2016-12-06-see_bandwith_usage_per_process.md) on 2016-12-06
 - [Show processes using files](tils/sysadmin/2016-12-07-show_processes_using_files.md) on 2016-12-07
+- [How to download certificate from server](tils/sysadmin/2016-12-23-how_to_download_certificate_from_server.md) on 2016-12-23
 
 # tils/sysadmin
 
