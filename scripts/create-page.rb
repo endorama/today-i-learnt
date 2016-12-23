@@ -25,7 +25,11 @@ header = <<EOF
  
 _Category: #{category}_
 _Generated on #{date}_
+_source: [source]_
 
+
+
+[source]: url
 EOF
 
 File.open(path, 'w') { |file| file.write header }
