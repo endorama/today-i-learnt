@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+SCRIPT="$(readlink --canonicalize-existing "$0")"
+SCRIPTPATH="$(dirname "$SCRIPT")"
+SCRIPTNAME="$(basename "$SCRIPT")"
+# Thanks https://dev.to/thiht/shell-scripts-matter :)
+
+#/ Usage: til-list-categories
+#/ Description: list available categories
+#/ Examples: til-list-categories
+#/ Options:
+#/   --help: Display this help message
+#/   --version: Display programm version
+#/ Version: 0.1.0
+usage() { grep '^#/' "$0" | cut -c4- ; exit 0 ; }
+version() { grep '^#/ Version:' "$0" | cut -c13- ; exit 0 ; }
+expr "$*" : ".*--help" > /dev/null && usage
+expr "$*" : ".*--version" > /dev/null && version
+
+readonly LOG_FILE="/tmp/$SCRIPTNAME.log"
+info()    { echo " [INFO]    $*" | tee -a "$LOG_FILE" >&2 ; }
+warning() { echo " [WARNING] $*" | tee -a "$LOG_FILE" >&2 ; }
+error()   { echo " [ERROR]   $*" | tee -a "$LOG_FILE" >&2 ; }
+fatal()   { echo " [FATAL]   $*" | tee -a "$LOG_FILE" >&2 ; exit 1 ; }
+
+# cleanup() {}
+
+# Parse command line options.
+# while getopts ab: OPT; do
+#   case "$OPT" in
+#     a)
+#       echo "set a"
+#     b)
+#       echo $OPTARG
+#       ;;
+#     \?)
+#       # getopts issues an error message
+#       usage
+#       exit 1
+#       ;;
+#   esac
+# done
+# Remove the switches we parsed above.
+# shift `expr $OPTIND - 1`
+
+if [[ "${BASH_SOURCE[0]}" = "$0" ]]; then
+    # trap cleanup EXIT
+    # Script goes here
+    
+    for i in tils/*; do echo $(basename $i); done
+    
+    exit 0
+fi
