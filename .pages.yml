@@ -100,10 +100,10 @@
   title: Create encrypted partition
   path: tils/sysadmin/2017-05-18-create_encrypted_partition.md
 - !ruby/struct:Page
-  category: tils/sysadmin
+  category: sysadmin
   date: '2016-09-29'
   title: View last successfull and failed login attempts
-  path: tils/tils/sysadmin/2016-09-29-view_last_successfull_and_failed_login_attempts.md
+  path: tils/sysadmin/2016-09-29-view_last_successfull_and_failed_login_attempts.md
 - !ruby/struct:Page
   category: video
   date: '2016-04-20'
