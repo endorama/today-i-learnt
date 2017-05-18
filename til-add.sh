@@ -1,65 +1,74 @@
 #!/usr/bin/env bash
-
-# http://redsymbol.net/articles/unofficial-bash-strict-mode/
 set -euo pipefail
 IFS=$'\n\t'
+SCRIPT="$(readlink --canonicalize-existing "$0")"
+SCRIPTPATH="$(dirname "$SCRIPT")"
+SCRIPTNAME="$(basename "$SCRIPT")"
+# Thanks https://dev.to/thiht/shell-scripts-matter :)
 
-APPLICATION="til-add"
-VERSION="0.0.1"
+#/ Usage: til-add category title
+#/ Description: Create a new til in specified category
+#/ Examples: til-add sysadmin "create encrypted partition"
+#/ Options:
+#/   --help: Display this help message
+#/   --version: Display programm version
+#/ Version: 0.1.0
+usage() { grep '^#/' "$0" | cut -c4- ; exit 0 ; }
+version() { grep '^#/ Version:' "$0" | cut -c13- ; exit 0 ; }
+expr "$*" : ".*--help" > /dev/null && usage
+expr "$*" : ".*--version" > /dev/null && version
 
-# http://stackoverflow.com/a/3182519/715002
-USAGE="Usage: $APPLICATION [-hv] category title
+readonly LOG_FILE="/tmp/$SCRIPTNAME.log"
+info()    { echo " [INFO]    $*" | tee -a "$LOG_FILE" >&2 ; }
+warning() { echo " [WARNING] $*" | tee -a "$LOG_FILE" >&2 ; }
+error()   { echo " [ERROR]   $*" | tee -a "$LOG_FILE" >&2 ; }
+fatal()   { echo " [FATAL]   $*" | tee -a "$LOG_FILE" >&2 ; exit 1 ; }
 
-  Commands:
-    category      The page category
-    title         The title of the page
-
-  Options:
-    -h        Print this help screen
-    -v        Print version
-
-Version $VERSION"
-
-function usage() {
-  echo "$USAGE" >&2
-}
+# cleanup() {}
 
 # Parse command line options.
-while getopts hvo: OPT; do
-  case "$OPT" in
-    h)
-      usage
-      exit 0
-      ;;
-    v)
-      echo "$APPLICATION - Version $VERSION"
-      exit 0
-      ;;
-    \?)
-      # getopts issues an error message
-      usage
-      exit 1
-      ;;
-  esac
-done
-
+# while getopts ab: OPT; do
+#   case "$OPT" in
+#     a)
+#       echo "set a"
+#     b)
+#       echo $OPTARG
+#       ;;
+#     \?)
+#       # getopts issues an error message
+#       usage
+#       exit 1
+#       ;;
+#   esac
+# done
 # Remove the switches we parsed above.
-shift `expr $OPTIND - 1`
+# shift `expr $OPTIND - 1`
 
-# We want at least one non-option argument. 
-if [ $# -lt 2 ]; then
-  usage
-  exit 1
+sanitize() {
+  local string
+  string=$1
+  string="${string// /_}"
+  string="${string,,}"
+  echo $string
+}
+
+if [[ "${BASH_SOURCE[0]}" = "$0" ]]; then
+    # trap cleanup EXIT
+    # Script goes here
+    
+    [ $# -lt 2 ] && usage
+    category=$1
+    title=$2
+    info "Creating '$title' in category '$category'"
+    
+    category=$(sanitize $category)
+    title=$(sanitize $title)
+    info "Til dest: ${category}/${title}"
+    
+    ruby scripts/create-page.rb "${category}/${title}"
+    ruby scripts/create-readme.rb
+    git add .
+    git commit -m "add ${category}/${title}"
+    
+    exit 0
 fi
-
-category=$1
-title=${2// /-}
-
-echo "adding ${category}/${title}..."
-
-ruby scripts/create-page.rb "${category}/${title}"
-ruby scripts/create-readme.rb
-git add .
-git commit -m "add ${category}/${title}"
-
-# EOF

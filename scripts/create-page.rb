@@ -28,7 +28,6 @@ _Generated on #{date}_
 _source: [source]_
 
 
-
 [source]: url
 EOF
 
