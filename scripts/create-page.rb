@@ -12,7 +12,7 @@ title = name.tr('_', ' ').tr('-', ' ').capitalize
 date = `date +%Y-%m-%d`.strip
 path = "tils/#{category}/#{date}-#{name}.md"
 
-puts "New file at #{path}"
+puts "#{path}"
 
 page = Page.new(category, date, title, path)
 # puts page.inspect
