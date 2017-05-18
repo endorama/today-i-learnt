@@ -95,6 +95,11 @@
   title: How to download certificate from server
   path: tils/sysadmin/2016-12-23-how_to_download_certificate_from_server.md
 - !ruby/struct:Page
+  category: sysadmin
+  date: '2017-05-18'
+  title: Create encrypted partition
+  path: tils/sysadmin/2017-05-18-create_encrypted_partition.md
+- !ruby/struct:Page
   category: tils/sysadmin
   date: '2016-09-29'
   title: View last successfull and failed login attempts
