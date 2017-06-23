@@ -55,8 +55,9 @@ learned.
 - [See bandwith usage per process](tils/sysadmin/2016-12-06-see_bandwith_usage_per_process.md) on 2016-12-06
 - [Show processes using files](tils/sysadmin/2016-12-07-show_processes_using_files.md) on 2016-12-07
 - [How to download certificate from server](tils/sysadmin/2016-12-23-how_to_download_certificate_from_server.md) on 2016-12-23
-- [View last successfull and failed login attempts](tils/sysadmin/2016-09-29-view_last_successfull_and_failed_login_attempts.md) on 2016-09-29
 - [Create encrypted partition](tils/sysadmin/2017-05-18-create_encrypted_partition.md) on 2017-05-18
+- [View last successfull and failed login attempts](tils/sysadmin/2016-09-29-view_last_successfull_and_failed_login_attempts.md) on 2016-09-29
+- [Disable systemd service manually](tils/sysadmin/2017-06-23-disable_systemd_service_manually.md) on 2017-06-23
 
 # video
 
