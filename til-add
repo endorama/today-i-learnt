@@ -65,9 +65,9 @@ if [[ "${BASH_SOURCE[0]}" = "$0" ]]; then
     title=$(sanitize $title)
     info "Til dest: ${category}/${title}"
     
-    ruby scripts/create-page.rb "${category}/${title}"
-    til_path=$(ruby scripts/create-readme.rb)
+    til_path=$(ruby scripts/create-page.rb "${category}/${title}")
     vim $til_path
+    ruby scripts/create-readme.rb
     git add tils/${category}
     git commit -m "add ${category}/${title}"
     

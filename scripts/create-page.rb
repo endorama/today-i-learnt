@@ -4,7 +4,7 @@ require 'yaml'
 require_relative './page'
 
 page = ARGV[0]
-puts "Creating #{page}"
+# puts "Creating #{page}"
 
 category = File.dirname page
 name = File.basename(page).tr('-', '_').downcase
