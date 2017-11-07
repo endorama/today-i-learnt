@@ -58,9 +58,12 @@ learned.
 - [Create encrypted partition](tils/sysadmin/2017-05-18-create_encrypted_partition.md) on 2017-05-18
 - [View last successfull and failed login attempts](tils/sysadmin/2016-09-29-view_last_successfull_and_failed_login_attempts.md) on 2016-09-29
 - [Disable systemd service manually](tils/sysadmin/2017-06-23-disable_systemd_service_manually.md) on 2017-06-23
+- [Show ssh key fingerprint](tils/sysadmin/2017-11-07-show_ssh_key_fingerprint.md) on 2017-11-07
 
 # video
 
 - [Concatenating video files](tils/video/2016-04-20-concatenating_video_files.md) on 2016-04-20
 - [Converting video files](tils/video/2017-03-21-converting_video_files.md) on 2017-03-21
+- [Cut video with ffmpeg](tils/video/2017-11-07-cut_video_with_ffmpeg.md) on 2017-11-07
+- [Rotate video](tils/video/2017-11-07-rotate_video.md) on 2017-11-07
 

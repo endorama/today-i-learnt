@@ -110,6 +110,11 @@
   title: Disable systemd service manually
   path: tils/sysadmin/2017-06-23-disable_systemd_service_manually.md
 - !ruby/struct:Page
+  category: sysadmin
+  date: '2017-11-07'
+  title: Show ssh key fingerprint
+  path: tils/sysadmin/2017-11-07-show_ssh_key_fingerprint.md
+- !ruby/struct:Page
   category: video
   date: '2016-04-20'
   title: Concatenating video files
@@ -119,3 +124,13 @@
   date: '2017-03-21'
   title: Converting video files
   path: tils/video/2017-03-21-converting_video_files.md
+- !ruby/struct:Page
+  category: video
+  date: '2017-11-07'
+  title: Cut video with ffmpeg
+  path: tils/video/2017-11-07-cut_video_with_ffmpeg.md
+- !ruby/struct:Page
+  category: video
+  date: '2017-11-07'
+  title: Rotate video
+  path: tils/video/2017-11-07-rotate_video.md
