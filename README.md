@@ -59,6 +59,7 @@ learned.
 - [View last successfull and failed login attempts](tils/sysadmin/2016-09-29-view_last_successfull_and_failed_login_attempts.md) on 2016-09-29
 - [Disable systemd service manually](tils/sysadmin/2017-06-23-disable_systemd_service_manually.md) on 2017-06-23
 - [Show ssh key fingerprint](tils/sysadmin/2017-11-07-show_ssh_key_fingerprint.md) on 2017-11-07
+- [Test starttls smtp auth](tils/sysadmin/2017-12-12-test_starttls_smtp_auth.md) on 2017-12-12
 
 # video
 

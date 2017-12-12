@@ -115,6 +115,11 @@
   title: Show ssh key fingerprint
   path: tils/sysadmin/2017-11-07-show_ssh_key_fingerprint.md
 - !ruby/struct:Page
+  category: sysadmin
+  date: '2017-12-12'
+  title: Test starttls smtp auth
+  path: tils/sysadmin/2017-12-12-test_starttls_smtp_auth.md
+- !ruby/struct:Page
   category: video
   date: '2016-04-20'
   title: Concatenating video files
