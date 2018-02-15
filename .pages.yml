@@ -120,6 +120,11 @@
   title: Test starttls smtp auth
   path: tils/sysadmin/2017-12-12-test_starttls_smtp_auth.md
 - !ruby/struct:Page
+  category: sysadmin
+  date: '2018-02-15'
+  title: Change ssh key passphrase
+  path: tils/sysadmin/2018-02-15-change_ssh_key_passphrase.md
+- !ruby/struct:Page
   category: video
   date: '2016-04-20'
   title: Concatenating video files

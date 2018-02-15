@@ -60,6 +60,7 @@ learned.
 - [Disable systemd service manually](tils/sysadmin/2017-06-23-disable_systemd_service_manually.md) on 2017-06-23
 - [Show ssh key fingerprint](tils/sysadmin/2017-11-07-show_ssh_key_fingerprint.md) on 2017-11-07
 - [Test starttls smtp auth](tils/sysadmin/2017-12-12-test_starttls_smtp_auth.md) on 2017-12-12
+- [Change ssh key passphrase](tils/sysadmin/2018-02-15-change_ssh_key_passphrase.md) on 2018-02-15
 
 # video
 
