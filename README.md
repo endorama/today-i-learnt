@@ -32,6 +32,10 @@ learned.
 
 - [Resize svg drawing to canvas](tils/inkscape/2016-12-06-resize_svg_drawing_to_canvas.md) on 2016-12-06
 
+# lightdm
+
+- [Hide user from login screen](tils/lightdm/2018-04-06-hide_user_from_login_screen.md) on 2018-04-06
+
 # mysql
 
 - [Mysqldump permissions](tils/mysql/2016-03-15-mysqldump_permissions.md) on 2016-03-15
@@ -61,6 +65,9 @@ learned.
 - [Show ssh key fingerprint](tils/sysadmin/2017-11-07-show_ssh_key_fingerprint.md) on 2017-11-07
 - [Test starttls smtp auth](tils/sysadmin/2017-12-12-test_starttls_smtp_auth.md) on 2017-12-12
 - [Change ssh key passphrase](tils/sysadmin/2018-02-15-change_ssh_key_passphrase.md) on 2018-02-15
+- [Change gpg expire date](tils/sysadmin/2018-03-10-change_gpg_expire_date.md) on 2018-03-10
+- [Search gpg in keyserver](tils/sysadmin/2018-03-10-search_gpg_in_keyserver.md) on 2018-03-10
+- [Send gpg key to keyserver](tils/sysadmin/2018-03-10-send_gpg_key_to_keyserver.md) on 2018-03-10
 
 # video
 

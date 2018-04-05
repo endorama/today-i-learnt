@@ -35,6 +35,11 @@
   title: Resize svg drawing to canvas
   path: tils/inkscape/2016-12-06-resize_svg_drawing_to_canvas.md
 - !ruby/struct:Page
+  category: lightdm
+  date: '2018-04-06'
+  title: Hide user from login screen
+  path: tils/lightdm/2018-04-06-hide_user_from_login_screen.md
+- !ruby/struct:Page
   category: mysql
   date: '2016-03-15'
   title: Mysqldump permissions
@@ -124,6 +129,21 @@
   date: '2018-02-15'
   title: Change ssh key passphrase
   path: tils/sysadmin/2018-02-15-change_ssh_key_passphrase.md
+- !ruby/struct:Page
+  category: sysadmin
+  date: '2018-03-10'
+  title: Change gpg expire date
+  path: tils/sysadmin/2018-03-10-change_gpg_expire_date.md
+- !ruby/struct:Page
+  category: sysadmin
+  date: '2018-03-10'
+  title: Search gpg in keyserver
+  path: tils/sysadmin/2018-03-10-search_gpg_in_keyserver.md
+- !ruby/struct:Page
+  category: sysadmin
+  date: '2018-03-10'
+  title: Send gpg key to keyserver
+  path: tils/sysadmin/2018-03-10-send_gpg_key_to_keyserver.md
 - !ruby/struct:Page
   category: video
   date: '2016-04-20'
