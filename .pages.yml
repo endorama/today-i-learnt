@@ -45,6 +45,11 @@
   title: Mysqldump permissions
   path: tils/mysql/2016-03-15-mysqldump_permissions.md
 - !ruby/struct:Page
+  category: postgresql
+  date: '2019-10-10'
+  title: Specify connection application name
+  path: tils/postgresql/2019-10-10-specify_connection_application_name.md
+- !ruby/struct:Page
   category: rails
   date: '2016-02-26'
   title: Vulnerability scanner

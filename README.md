@@ -40,6 +40,10 @@ learned.
 
 - [Mysqldump permissions](tils/mysql/2016-03-15-mysqldump_permissions.md) on 2016-03-15
 
+# postgresql
+
+- [Specify connection application name](tils/postgresql/2019-10-10-specify_connection_application_name.md) on 2019-10-10
+
 # rails
 
 - [Vulnerability scanner](tils/rails/2016-02-26-vulnerability_scanner.md) on 2016-02-26
