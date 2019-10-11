@@ -72,6 +72,7 @@ learned.
 - [Change gpg expire date](tils/sysadmin/2018-03-10-change_gpg_expire_date.md) on 2018-03-10
 - [Search gpg in keyserver](tils/sysadmin/2018-03-10-search_gpg_in_keyserver.md) on 2018-03-10
 - [Send gpg key to keyserver](tils/sysadmin/2018-03-10-send_gpg_key_to_keyserver.md) on 2018-03-10
+- [List files in deb package](tils/sysadmin/2019-10-11-list_files_in_deb_package.md) on 2019-10-11
 
 # video
 
