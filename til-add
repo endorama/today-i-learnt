@@ -69,6 +69,7 @@ if [[ "${BASH_SOURCE[0]}" = "$0" ]]; then
     vim $til_path
     ruby scripts/create-readme.rb
     git add tils/${category}
+    git add .pages.yml README.md
     git commit -m "add ${category}/${title}"
     
     exit 0
