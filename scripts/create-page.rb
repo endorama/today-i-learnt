@@ -4,6 +4,7 @@ require 'yaml'
 require_relative './page'
 
 page = ARGV[0]
+  source = ARGV[1]
 # puts "Creating #{page}"
 
 category = File.dirname page
@@ -23,12 +24,23 @@ page = Page.new(category, date, title, path)
 header = <<EOF
 # #{title}
  
-_Category: #{category}_
-_Generated on #{date}_
-_source: [source]_
+<table>
+  <tbody>
+    <tr>
+      <td>Category</td>
+      <td>#{category}</td>
+    </tr>
+   <tr>
+      <td>Added on</td>
+      <td>#{date}</td>
+    </tr>
+    <tr>
+      <td>Source</td>
+      <td><a href="#{source}">source</a></td>
+    </tr>
+  </tbody>
+</table>
 
-
-[source]: url
 EOF
 
 File.open(path, 'w') { |file| file.write header }

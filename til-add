@@ -6,9 +6,9 @@ SCRIPTPATH="$(dirname "$SCRIPT")"
 SCRIPTNAME="$(basename "$SCRIPT")"
 # Thanks https://dev.to/thiht/shell-scripts-matter :)
 
-#/ Usage: til-add category title
+#/ Usage: til-add category title sourceURL
 #/ Description: Create a new til in specified category
-#/ Examples: til-add sysadmin "create encrypted partition"
+#/ Examples: til-add sysadmin "create encrypted partition" https://stackoverflow.com...
 #/ Options:
 #/   --help: Display this help message
 #/   --version: Display programm version
@@ -56,16 +56,17 @@ if [[ "${BASH_SOURCE[0]}" = "$0" ]]; then
     # trap cleanup EXIT
     # Script goes here
     
-    [ $# -lt 2 ] && usage
+    [ $# -lt 3 ] && usage
     category=$1
     title=$2
+    source=$3
     info "Creating '$title' in category '$category'"
     
     category=$(sanitize $category)
     title=$(sanitize $title)
     info "Til dest: ${category}/${title}"
     
-    til_path=$(ruby scripts/create-page.rb "${category}/${title}")
+    til_path=$(ruby scripts/create-page.rb "${category}/${title}" "${source}")
     vim $til_path
     ruby scripts/create-readme.rb
     git add tils/${category}
