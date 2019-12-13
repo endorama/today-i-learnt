@@ -28,6 +28,10 @@ learned.
 
 - [Export patch from stash](tils/git/2016-12-23-export_patch_from_stash.md) on 2016-12-23
 
+# golang
+
+- [Use module fork](tils/golang/2019-12-13-use_module_fork.md) on 2019-12-13
+
 # inkscape
 
 - [Resize svg drawing to canvas](tils/inkscape/2016-12-06-resize_svg_drawing_to_canvas.md) on 2016-12-06
