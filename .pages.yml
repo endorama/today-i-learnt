@@ -30,6 +30,11 @@
   title: Export patch from stash
   path: tils/git/2016-12-23-export_patch_from_stash.md
 - !ruby/struct:Page
+  category: git
+  date: '2020-02-04'
+  title: Export subtree with history
+  path: tils/git/2020-02-04-export_subtree_with_history.md
+- !ruby/struct:Page
   category: golang
   date: '2019-12-13'
   title: Use module fork
