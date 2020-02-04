@@ -35,6 +35,11 @@
   title: Export subtree with history
   path: tils/git/2020-02-04-export_subtree_with_history.md
 - !ruby/struct:Page
+  category: git
+  date: '2020-02-04'
+  title: Import history in another repo
+  path: tils/git/2020-02-04-import_history_in_another_repo.md
+- !ruby/struct:Page
   category: golang
   date: '2019-12-13'
   title: Use module fork
