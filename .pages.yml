@@ -50,6 +50,11 @@
   title: Resize svg drawing to canvas
   path: tils/inkscape/2016-12-06-resize_svg_drawing_to_canvas.md
 - !ruby/struct:Page
+  category: kubernetes
+  date: '2020-04-23'
+  title: Recover a crashed node
+  path: tils/kubernetes/2020-04-23-recover_a_crashed_node.md
+- !ruby/struct:Page
   category: lightdm
   date: '2018-04-06'
   title: Hide user from login screen

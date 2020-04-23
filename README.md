@@ -38,6 +38,10 @@ learned.
 
 - [Resize svg drawing to canvas](tils/inkscape/2016-12-06-resize_svg_drawing_to_canvas.md) on 2016-12-06
 
+# kubernetes
+
+- [Recover a crashed node](tils/kubernetes/2020-04-23-recover_a_crashed_node.md) on 2020-04-23
+
 # lightdm
 
 - [Hide user from login screen](tils/lightdm/2018-04-06-hide_user_from_login_screen.md) on 2018-04-06
