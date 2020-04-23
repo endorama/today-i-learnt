@@ -41,6 +41,7 @@ learned.
 # kubernetes
 
 - [Recover a crashed node](tils/kubernetes/2020-04-23-recover_a_crashed_node.md) on 2020-04-23
+- [Delete all pods by search](tils/kubernetes/2020-04-23-delete_all_pods_by_search.md) on 2020-04-23
 
 # lightdm
 
