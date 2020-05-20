@@ -180,6 +180,11 @@
   title: List files in deb package
   path: tils/sysadmin/2019-10-11-list_files_in_deb_package.md
 - !ruby/struct:Page
+  category: terraform
+  date: '2020-05-20'
+  title: Modules depends on
+  path: tils/terraform/2020-05-20-modules_depends_on.md
+- !ruby/struct:Page
   category: video
   date: '2016-04-20'
   title: Concatenating video files

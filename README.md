@@ -85,6 +85,10 @@ learned.
 - [Send gpg key to keyserver](tils/sysadmin/2018-03-10-send_gpg_key_to_keyserver.md) on 2018-03-10
 - [List files in deb package](tils/sysadmin/2019-10-11-list_files_in_deb_package.md) on 2019-10-11
 
+# terraform
+
+- [Modules depends on](tils/terraform/2020-05-20-modules_depends_on.md) on 2020-05-20
+
 # video
 
 - [Concatenating video files](tils/video/2016-04-20-concatenating_video_files.md) on 2016-04-20
