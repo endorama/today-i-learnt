@@ -33,6 +33,7 @@ learned.
 # golang
 
 - [Use module fork](tils/golang/2019-12-13-use_module_fork.md) on 2019-12-13
+- [Template output as string](tils/golang/2020-07-30-template_output_as_string.md) on 2020-07-30
 
 # inkscape
 

@@ -45,6 +45,11 @@
   title: Use module fork
   path: tils/golang/2019-12-13-use_module_fork.md
 - !ruby/struct:Page
+  category: golang
+  date: '2020-07-30'
+  title: Template output as string
+  path: tils/golang/2020-07-30-template_output_as_string.md
+- !ruby/struct:Page
   category: inkscape
   date: '2016-12-06'
   title: Resize svg drawing to canvas
