@@ -100,6 +100,11 @@
   title: Check website response time
   path: tils/shell/2016-02-25-check_website_response_time.md
 - !ruby/struct:Page
+  category: shell
+  date: '2020-08-11'
+  title: Create huge file
+  path: tils/shell/2020-08-11-create_huge_file.md
+- !ruby/struct:Page
   category: sysadmin
   date: '2016-03-08'
   title: All mac addresses in LAN

@@ -65,6 +65,7 @@ learned.
 # shell
 
 - [Check website response time](tils/shell/2016-02-25-check_website_response_time.md) on 2016-02-25
+- [Create huge file](tils/shell/2020-08-11-create_huge_file.md) on 2020-08-11
 
 # sysadmin
 
