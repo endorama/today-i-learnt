@@ -95,6 +95,11 @@
   title: Rake tasks specs
   path: tils/rails/2016-03-17-rake_tasks_specs.md
 - !ruby/struct:Page
+  category: ruby
+  date: '2020-08-29'
+  title: Hide ruby deprecation warnings
+  path: tils/ruby/2020-08-29-hide_ruby_deprecation_warnings.md
+- !ruby/struct:Page
   category: shell
   date: '2016-02-25'
   title: Check website response time

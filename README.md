@@ -62,6 +62,10 @@ learned.
 - [Security](tils/rails/2016-02-26-security.md) on 2016-02-26
 - [Rake tasks specs](tils/rails/2016-03-17-rake_tasks_specs.md) on 2016-03-17
 
+# ruby
+
+- [Hide ruby deprecation warnings](tils/ruby/2020-08-29-hide_ruby_deprecation_warnings.md) on 2020-08-29
+
 # shell
 
 - [Check website response time](tils/shell/2016-02-25-check_website_response_time.md) on 2016-02-25
