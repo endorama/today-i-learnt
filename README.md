@@ -105,4 +105,5 @@ learned.
 # vim
 
 - [Read from stdin](tils/vim/2020-09-25-read_from_stdin.md) on 2020-09-25
+- [Send vim buffer to command](tils/vim/2020-09-25-send_vim_buffer_to_command.md) on 2020-09-25
 
