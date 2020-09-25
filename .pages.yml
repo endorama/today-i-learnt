@@ -219,3 +219,8 @@
   date: '2017-11-07'
   title: Rotate video
   path: tils/video/2017-11-07-rotate_video.md
+- !ruby/struct:Page
+  category: vim
+  date: '2020-09-25'
+  title: Read from stdin
+  path: tils/vim/2020-09-25-read_from_stdin.md

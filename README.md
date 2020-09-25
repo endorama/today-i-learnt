@@ -102,3 +102,7 @@ learned.
 - [Cut video with ffmpeg](tils/video/2017-11-07-cut_video_with_ffmpeg.md) on 2017-11-07
 - [Rotate video](tils/video/2017-11-07-rotate_video.md) on 2017-11-07
 
+# vim
+
+- [Read from stdin](tils/vim/2020-09-25-read_from_stdin.md) on 2020-09-25
+
