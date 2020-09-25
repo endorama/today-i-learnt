@@ -4,6 +4,8 @@ From an awesome idea got from [jbranchaud](https://github.com/jbranchaud/til), a
 repository to collect all the today I learned about the more different topics I
 learned.
 
+**Please note**: the knowledge here dates back years. Do not expect it to be up to date and working. Dig and discover but use with care. **HERE BE DRAGONS**.
+
 # android
 
 - [Opo factory restore](tils/android/2016-04-30-opo_factory_restore.md) on 2016-04-30
