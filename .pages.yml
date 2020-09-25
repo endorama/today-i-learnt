@@ -229,3 +229,8 @@
   date: '2020-09-25'
   title: Send vim buffer to command
   path: tils/vim/2020-09-25-send_vim_buffer_to_command.md
+- !ruby/struct:Page
+  category: vim
+  date: '2020-09-25'
+  title: Editing pipes (with $editor)
+  path: tils/vim/2020-09-25-editing_pipes_(with_$editor).md
