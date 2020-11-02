@@ -70,6 +70,11 @@
   title: Delete all pods by search
   path: tils/kubernetes/2020-04-23-delete_all_pods_by_search.md
 - !ruby/struct:Page
+  category: kubernetes
+  date: '2020-11-02'
+  title: Restart pods in deployment
+  path: tils/kubernetes/2020-11-02-restart_pods_in_deployment.md
+- !ruby/struct:Page
   category: lightdm
   date: '2018-04-06'
   title: Hide user from login screen
