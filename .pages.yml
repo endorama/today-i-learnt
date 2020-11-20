@@ -205,6 +205,11 @@
   title: List files in deb package
   path: tils/sysadmin/2019-10-11-list_files_in_deb_package.md
 - !ruby/struct:Page
+  category: sysadmin
+  date: '2020-11-20'
+  title: Graceful nginx shutdown
+  path: tils/sysadmin/2020-11-20-graceful_nginx_shutdown.md
+- !ruby/struct:Page
   category: terraform
   date: '2020-05-20'
   title: Modules depends on

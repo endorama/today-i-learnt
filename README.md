@@ -4,8 +4,6 @@ From an awesome idea got from [jbranchaud](https://github.com/jbranchaud/til), a
 repository to collect all the today I learned about the more different topics I
 learned.
 
-**Please note**: the knowledge here dates back years. Do not expect it to be up to date and working. Dig and discover but use with care. **HERE BE DRAGONS**.
-
 # android
 
 - [Opo factory restore](tils/android/2016-04-30-opo_factory_restore.md) on 2016-04-30
@@ -94,6 +92,7 @@ learned.
 - [Search gpg in keyserver](tils/sysadmin/2018-03-10-search_gpg_in_keyserver.md) on 2018-03-10
 - [Send gpg key to keyserver](tils/sysadmin/2018-03-10-send_gpg_key_to_keyserver.md) on 2018-03-10
 - [List files in deb package](tils/sysadmin/2019-10-11-list_files_in_deb_package.md) on 2019-10-11
+- [Graceful nginx shutdown](tils/sysadmin/2020-11-20-graceful_nginx_shutdown.md) on 2020-11-20
 
 # terraform
 
