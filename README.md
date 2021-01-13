@@ -50,6 +50,10 @@ learned.
 
 - [Hide user from login screen](tils/lightdm/2018-04-06-hide_user_from_login_screen.md) on 2018-04-06
 
+# linux
+
+- [Convert pdf to image](tils/linux/2021-01-13-convert_pdf_to_image.md) on 2021-01-13
+
 # mysql
 
 - [Mysqldump permissions](tils/mysql/2016-03-15-mysqldump_permissions.md) on 2016-03-15
