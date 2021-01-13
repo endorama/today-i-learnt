@@ -85,6 +85,11 @@
   title: Convert pdf to image
   path: tils/linux/2021-01-13-convert_pdf_to_image.md
 - !ruby/struct:Page
+  category: linux
+  date: '2021-01-13'
+  title: Extract page from pdf
+  path: tils/linux/2021-01-13-extract_page_from_pdf.md
+- !ruby/struct:Page
   category: mysql
   date: '2016-03-15'
   title: Mysqldump permissions

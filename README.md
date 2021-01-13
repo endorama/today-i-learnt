@@ -53,6 +53,7 @@ learned.
 # linux
 
 - [Convert pdf to image](tils/linux/2021-01-13-convert_pdf_to_image.md) on 2021-01-13
+- [Extract page from pdf](tils/linux/2021-01-13-extract_page_from_pdf.md) on 2021-01-13
 
 # mysql
 
