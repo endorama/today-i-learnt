@@ -98,6 +98,7 @@ learned.
 - [Send gpg key to keyserver](tils/sysadmin/2018-03-10-send_gpg_key_to_keyserver.md) on 2018-03-10
 - [List files in deb package](tils/sysadmin/2019-10-11-list_files_in_deb_package.md) on 2019-10-11
 - [Graceful nginx shutdown](tils/sysadmin/2020-11-20-graceful_nginx_shutdown.md) on 2020-11-20
+- [Querying unix sockets with curl](tils/sysadmin/2021-02-10-querying_unix_sockets_with_curl.md) on 2021-02-10
 
 # terraform
 
