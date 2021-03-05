@@ -75,6 +75,11 @@
   title: Restart pods in deployment
   path: tils/kubernetes/2020-11-02-restart_pods_in_deployment.md
 - !ruby/struct:Page
+  category: kubernetes
+  date: '2021-03-05'
+  title: Delete all pods not in running state
+  path: tils/kubernetes/2021-03-05-delete_all_pods_not_in_running_state.md
+- !ruby/struct:Page
   category: lightdm
   date: '2018-04-06'
   title: Hide user from login screen

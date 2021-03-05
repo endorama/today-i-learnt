@@ -45,6 +45,7 @@ learned.
 - [Recover a crashed node](tils/kubernetes/2020-04-23-recover_a_crashed_node.md) on 2020-04-23
 - [Delete all pods by search](tils/kubernetes/2020-04-23-delete_all_pods_by_search.md) on 2020-04-23
 - [Restart pods in deployment](tils/kubernetes/2020-11-02-restart_pods_in_deployment.md) on 2020-11-02
+- [Delete all pods not in running state](tils/kubernetes/2021-03-05-delete_all_pods_not_in_running_state.md) on 2021-03-05
 
 # lightdm
 
