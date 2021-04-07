@@ -1,3 +1,10 @@
+---
+category: kubernetes
+created: 2021-04-07
+title: Restart pods in Deployment
+source: https://linuxhandbook.com/restart-pod-kubernetes/ https://techoverflow.net/2019/04/02/how-to-force-restarting-all-pods-in-a-kubernetes-deployment/
+---
+
 # Restart pods in deployment
 
 <table>
