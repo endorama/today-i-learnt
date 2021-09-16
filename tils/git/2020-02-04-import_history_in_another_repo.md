@@ -1,3 +1,9 @@
+---
+category: git
+created_on: 2020-02-04
+source: https://stackoverflow.com/a/1684694/715002
+---
+
 # Import history in another repo
  
 <table>
