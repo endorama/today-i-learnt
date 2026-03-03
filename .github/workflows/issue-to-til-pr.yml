@@ -1,0 +1,108 @@
+name: Issue to TIL PR
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  gate-author:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+      issue_number: ${{ steps.check.outputs.issue_number }}
+      title: ${{ steps.check.outputs.title }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check author
+        id: check
+        run: .github/workflows/scripts/gate-author.sh "${{ github.event_path }}"
+
+  gate-category:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+      category: ${{ steps.check.outputs.category }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check category label
+        id: check
+        run: .github/workflows/scripts/gate-category.sh "${{ github.event_path }}"
+
+  gate-source:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+      source: ${{ steps.check.outputs.source }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check source and extract solution
+        id: check
+        run: .github/workflows/scripts/gate-source.sh "${{ github.event_path }}"
+      - name: Upload solution
+        uses: actions/upload-artifact@v4
+        with:
+          name: til-solution
+          path: solution.txt
+
+  gate-pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    env:
+      GH_TOKEN: ${{ github.token }}
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check existing PR
+        id: check
+        run: .github/workflows/scripts/gate-pr.sh "${{ github.event_path }}" "${{ github.repository }}"
+
+  create:
+    needs: [gate-author, gate-category, gate-source, gate-pr]
+    if: |
+      needs.gate-author.outputs.skip != 'true' &&
+      needs.gate-category.outputs.skip != 'true' &&
+      needs.gate-source.outputs.skip != 'true' &&
+      needs.gate-pr.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download solution
+        uses: actions/download-artifact@v4
+        with:
+          name: til-solution
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: false
+
+      - name: Create TIL
+        run: |
+          .github/workflows/scripts/create-til.sh \
+            "${{ needs.gate-author.outputs.issue_number }}" \
+            "${{ needs.gate-category.outputs.category }}" \
+            "${{ needs.gate-source.outputs.source }}" \
+            "${{ needs.gate-author.outputs.title }}"
+
+      - name: Create PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          .github/workflows/scripts/create-pr.sh \
+            "${{ needs.gate-author.outputs.issue_number }}" \
+            "${{ needs.gate-author.outputs.title }}"
