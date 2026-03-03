@@ -5,7 +5,7 @@ require_relative './page'
 
 print 'Generating README.md '
 
-tils = YAML.load_file('.pages.yml') || []
+tils = YAML.load_file('.pages.yml', permitted_classes: [Page, Symbol]) || []
 # puts tils.inspect
 
 content = <<EOF

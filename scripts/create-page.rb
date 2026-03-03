@@ -45,7 +45,7 @@ EOF
 
 File.open(path, 'w') { |file| file.write header }
 
-pages = YAML.load_file('.pages.yml') || []
+pages = YAML.load_file('.pages.yml', permitted_classes: [Page, Symbol]) || []
 pages << page
 pages.sort_by!(&:category).uniq!(&:title)
 File.open('.pages.yml', 'w') {|f| f.write pages.to_yaml }
