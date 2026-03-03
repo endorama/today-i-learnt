@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+**After opening:** Add a label `category:<name>` (e.g. `category:git` or `category:sysadmin`) so automation can create a TIL PR.
+
 source: https://...
 
 # solution
