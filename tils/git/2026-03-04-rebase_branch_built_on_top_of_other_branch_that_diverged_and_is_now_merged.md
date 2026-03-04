@@ -17,7 +17,9 @@
   </tbody>
 </table>
 
+This may happen when you created a branch on top of another branch. The old branch you started is now in `main` and had some changes, so if you just rebase interactively you get nasty conflicts.
 
+The easiest solution is to start a new branch from `main` and cherry pick commits on top of it. You'll have conflicts, but only the ones relevant to the changes on top of the other branch. 
 
 You're on branch-b
 
