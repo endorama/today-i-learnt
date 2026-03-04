@@ -29,6 +29,7 @@ learned.
 - [Export patch from stash](tils/git/2016-12-23-export_patch_from_stash.md) on 2016-12-23
 - [Export subtree with history](tils/git/2020-02-04-export_subtree_with_history.md) on 2020-02-04
 - [Import history in another repo](tils/git/2020-02-04-import_history_in_another_repo.md) on 2020-02-04
+- [Rebase branch built on top of other branch that diverged and is now merged](tils/git/2026-03-04-rebase_branch_built_on_top_of_other_branch_that_diverged_and_is_now_merged.md) on 2026-03-04
 
 # golang
 
