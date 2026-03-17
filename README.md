@@ -32,6 +32,7 @@ learned.
 - [Rebase branch built on top of other branch that diverged and is now merged](tils/git/2026-03-04-rebase_branch_built_on_top_of_other_branch_that_diverged_and_is_now_merged.md) on 2026-03-04
 - [How to reset submodules in git repo](tils/git/2026-03-18-how_to_reset_submodules_in_git_repo.md) on 2026-03-18
 - [Remove files from git history](tils/git/2026-03-17-remove_files_from_git_history.md) on 2026-03-17
+- [Extracting a folder from a git repository retaining history](tils/git/2026-03-17-extracting_a_folder_from_a_git_repository_retaining_history.md) on 2026-03-17
 
 # golang
 
