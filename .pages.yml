@@ -155,6 +155,11 @@
   title: Create huge file
   path: tils/shell/2020-08-11-create_huge_file.md
 - !ruby/struct:Page
+  category: shell
+  date: '2023-01-11'
+  title: Find hardware model on linux
+  path: tils/shell/2023-01-11-find_hardware_model_on_linux.md
+- !ruby/struct:Page
   category: sysadmin
   date: '2016-03-08'
   title: All mac addresses in LAN
