@@ -4,13 +4,13 @@ require 'yaml'
 require_relative './page'
 
 page = ARGV[0]
-  source = ARGV[1]
-# puts "Creating #{page}"
+source = ARGV[1]
+date_arg = ARGV[2]
 
 category = File.dirname page
 name = File.basename(page).tr('-', '_').downcase
 title = name.tr('_', ' ').tr('-', ' ').capitalize
-date = `date +%Y-%m-%d`.strip
+date = date_arg && !date_arg.empty? ? date_arg : `date +%Y-%m-%d`.strip
 path = "tils/#{category}/#{date}-#{name}.md"
 
 puts "#{path}"
