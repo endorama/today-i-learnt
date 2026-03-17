@@ -2,7 +2,7 @@ name: Issue to TIL PR
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [labeled]
 
 jobs:
   gate-author:
