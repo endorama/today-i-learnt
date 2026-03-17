@@ -45,6 +45,11 @@
   title: Rebase branch built on top of other branch that diverged and is now merged
   path: tils/git/2026-03-04-rebase_branch_built_on_top_of_other_branch_that_diverged_and_is_now_merged.md
 - !ruby/struct:Page
+  category: git
+  date: '2026-03-18'
+  title: How to reset submodules in git repo
+  path: tils/git/2026-03-18-how_to_reset_submodules_in_git_repo.md
+- !ruby/struct:Page
   category: golang
   date: '2019-12-13'
   title: Use module fork
