@@ -55,6 +55,11 @@
   title: Remove files from git history
   path: tils/git/2026-03-17-remove_files_from_git_history.md
 - !ruby/struct:Page
+  category: git
+  date: '2026-03-17'
+  title: Resolve git merge conflicts with their changes
+  path: tils/git/2026-03-17-resolve_git_merge_conflicts_with_their_changes.md
+- !ruby/struct:Page
   category: golang
   date: '2019-12-13'
   title: Use module fork
