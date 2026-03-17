@@ -14,6 +14,10 @@
       <td>Source</td>
       <td><a href="https://techcommunity.microsoft.com/blog/azureinfrastructureblog/how-to-safely-remove-secrets-from-your-git-history-the-right-way/4464722">source</a></td>
     </tr>
+    <tr>
+      <td>Source</td>
+      <td><a href="https://www.git-tower.com/learn/git/faq/git-filter-repo">source</a></td>
+    </tr>
   </tbody>
 </table>
 
