@@ -55,6 +55,11 @@
   title: Remove files from git history
   path: tils/git/2026-03-17-remove_files_from_git_history.md
 - !ruby/struct:Page
+  category: git
+  date: '2026-03-17'
+  title: Checkout path from other git branch
+  path: tils/git/2026-03-17-checkout_path_from_other_git_branch.md
+- !ruby/struct:Page
   category: golang
   date: '2019-12-13'
   title: Use module fork
