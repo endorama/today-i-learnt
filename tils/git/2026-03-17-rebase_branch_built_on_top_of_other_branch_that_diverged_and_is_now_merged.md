@@ -12,7 +12,7 @@
     </tr>
     <tr>
       <td>Source</td>
-      <td><a href="me">source</a></td>
+      <td>me</td>
     </tr>
   </tbody>
 </table>
