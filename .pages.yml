@@ -160,6 +160,11 @@
   title: Find hardware model on linux
   path: tils/shell/2023-01-11-find_hardware_model_on_linux.md
 - !ruby/struct:Page
+  category: shell
+  date: '2026-03-26'
+  title: How to encrypt a pdf on linux
+  path: tils/shell/2026-03-26-how_to_encrypt_a_pdf_on_linux.md
+- !ruby/struct:Page
   category: sysadmin
   date: '2016-03-08'
   title: All mac addresses in LAN
