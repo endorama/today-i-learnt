@@ -86,6 +86,7 @@ learned.
 - [Check website response time](tils/shell/2016-02-25-check_website_response_time.md) on 2016-02-25
 - [Create huge file](tils/shell/2020-08-11-create_huge_file.md) on 2020-08-11
 - [Find hardware model on linux](tils/shell/2023-01-11-find_hardware_model_on_linux.md) on 2023-01-11
+- [How to encrypt a pdf on linux](tils/shell/2026-03-26-how_to_encrypt_a_pdf_on_linux.md) on 2026-03-26
 
 # sysadmin
 
