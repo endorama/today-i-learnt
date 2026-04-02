@@ -39,6 +39,7 @@ jobs:
     outputs:
       skip: ${{ steps.check.outputs.skip }}
       source: ${{ steps.check.outputs.source }}
+      date: ${{ steps.check.outputs.date }}
     steps:
       - uses: actions/checkout@v4
       - name: Check source and extract solution
@@ -97,7 +98,8 @@ jobs:
             "${{ needs.gate-author.outputs.issue_number }}" \
             "${{ needs.gate-category.outputs.category }}" \
             "${{ needs.gate-source.outputs.source }}" \
-            "${{ needs.gate-author.outputs.title }}"
+            "${{ needs.gate-author.outputs.title }}" \
+            "${{ needs.gate-source.outputs.date }}"
 
       - name: Create PR
         env:
