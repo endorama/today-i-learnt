@@ -57,6 +57,11 @@
 - !ruby/struct:Page
   category: git
   date: '2026-03-17'
+  title: Create orphan branch in git
+  path: tils/git/2026-03-17-create_orphan_branch_in_git.md
+- !ruby/struct:Page
+  category: git
+  date: '2026-03-17'
   title: Sign all previous commit in a branch
   path: tils/git/2026-03-17-sign_all_previous_commit_in_a_branch.md
 - !ruby/struct:Page
@@ -159,6 +164,16 @@
   date: '2020-08-11'
   title: Create huge file
   path: tils/shell/2020-08-11-create_huge_file.md
+- !ruby/struct:Page
+  category: shell
+  date: '2023-01-11'
+  title: Find hardware model on linux
+  path: tils/shell/2023-01-11-find_hardware_model_on_linux.md
+- !ruby/struct:Page
+  category: shell
+  date: '2026-03-26'
+  title: How to encrypt a pdf on linux
+  path: tils/shell/2026-03-26-how_to_encrypt_a_pdf_on_linux.md
 - !ruby/struct:Page
   category: sysadmin
   date: '2016-03-08'
