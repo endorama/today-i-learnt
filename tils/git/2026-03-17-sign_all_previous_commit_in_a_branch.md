@@ -21,5 +21,4 @@
 
 ```
 $ git rebase --exec "git commit --amend --no-edit -n -S" -i 8fd7b22
-
 ```
