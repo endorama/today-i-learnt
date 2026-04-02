@@ -150,6 +150,11 @@
   title: Run command as another user that has no shell
   path: tils/linux/2018-07-18-run_command_as_another_user_that_has_no_shell.md
 - !ruby/struct:Page
+  category: linux
+  date: '2016-12-01'
+  title: Find what package a file belongs to in ubuntu or debian
+  path: tils/linux/2016-12-01-find_what_package_a_file_belongs_to_in_ubuntu_or_debian.md
+- !ruby/struct:Page
   category: make
   date: '2021-07-16'
   title: Debugging
