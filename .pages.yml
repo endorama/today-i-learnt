@@ -145,6 +145,11 @@
   title: Extract page from pdf
   path: tils/linux/2021-01-13-extract_page_from_pdf.md
 - !ruby/struct:Page
+  category: linux
+  date: '2018-07-18'
+  title: Run command as another user that has no shell
+  path: tils/linux/2018-07-18-run_command_as_another_user_that_has_no_shell.md
+- !ruby/struct:Page
   category: make
   date: '2021-07-16'
   title: Debugging

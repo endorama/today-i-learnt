@@ -65,6 +65,7 @@ learned.
 
 - [Convert pdf to image](tils/linux/2021-01-13-convert_pdf_to_image.md) on 2021-01-13
 - [Extract page from pdf](tils/linux/2021-01-13-extract_page_from_pdf.md) on 2021-01-13
+- [Run command as another user that has no shell](tils/linux/2018-07-18-run_command_as_another_user_that_has_no_shell.md) on 2018-07-18
 
 # make
 
