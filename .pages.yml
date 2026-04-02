@@ -60,6 +60,11 @@
   title: Create orphan branch in git
   path: tils/git/2026-03-17-create_orphan_branch_in_git.md
 - !ruby/struct:Page
+  category: git
+  date: '2026-03-17'
+  title: Sign all previous commit in a branch
+  path: tils/git/2026-03-17-sign_all_previous_commit_in_a_branch.md
+- !ruby/struct:Page
   category: golang
   date: '2019-12-13'
   title: Use module fork

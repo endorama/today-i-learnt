@@ -33,6 +33,7 @@ learned.
 - [How to reset submodules in git repo](tils/git/2026-03-18-how_to_reset_submodules_in_git_repo.md) on 2026-03-18
 - [Remove files from git history](tils/git/2026-03-17-remove_files_from_git_history.md) on 2026-03-17
 - [Create orphan branch in git](tils/git/2026-03-17-create_orphan_branch_in_git.md) on 2026-03-17
+- [Sign all previous commit in a branch](tils/git/2026-03-17-sign_all_previous_commit_in_a_branch.md) on 2026-03-17
 
 # golang
 
