@@ -33,6 +33,9 @@ learned.
 - [How to reset submodules in git repo](tils/git/2026-03-18-how_to_reset_submodules_in_git_repo.md) on 2026-03-18
 - [Remove files from git history](tils/git/2026-03-17-remove_files_from_git_history.md) on 2026-03-17
 - [Extracting a folder from a git repository retaining history](tils/git/2026-03-17-extracting_a_folder_from_a_git_repository_retaining_history.md) on 2026-03-17
+- [Cloning a specific tag from a git repo](tils/git/2026-03-17-cloning_a_specific_tag_from_a_git_repo.md) on 2026-03-17
+- [Create orphan branch in git](tils/git/2026-03-17-create_orphan_branch_in_git.md) on 2026-03-17
+- [Sign all previous commit in a branch](tils/git/2026-03-17-sign_all_previous_commit_in_a_branch.md) on 2026-03-17
 
 # golang
 
@@ -86,6 +89,8 @@ learned.
 
 - [Check website response time](tils/shell/2016-02-25-check_website_response_time.md) on 2016-02-25
 - [Create huge file](tils/shell/2020-08-11-create_huge_file.md) on 2020-08-11
+- [Find hardware model on linux](tils/shell/2023-01-11-find_hardware_model_on_linux.md) on 2023-01-11
+- [How to encrypt a pdf on linux](tils/shell/2026-03-26-how_to_encrypt_a_pdf_on_linux.md) on 2026-03-26
 
 # sysadmin
 
