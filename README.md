@@ -65,6 +65,7 @@ learned.
 
 - [Convert pdf to image](tils/linux/2021-01-13-convert_pdf_to_image.md) on 2021-01-13
 - [Extract page from pdf](tils/linux/2021-01-13-extract_page_from_pdf.md) on 2021-01-13
+- [Find what package a file belongs to in ubuntu or debian](tils/linux/2016-12-01-find_what_package_a_file_belongs_to_in_ubuntu_or_debian.md) on 2016-12-01
 
 # make
 
