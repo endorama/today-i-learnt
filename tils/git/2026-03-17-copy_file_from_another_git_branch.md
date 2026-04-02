@@ -24,7 +24,7 @@ After git `2.23`:
 ```
 $ git restore --source otherbranch path/to/myfile.txt
 ```
-**Works on folder too!**
+**Works on folders too!**
 
 Alternatives:
 
