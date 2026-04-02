@@ -57,6 +57,11 @@
 - !ruby/struct:Page
   category: git
   date: '2026-03-17'
+  title: Copy file from another git branch
+  path: tils/git/2026-03-17-copy_file_from_another_git_branch.md
+- !ruby/struct:Page
+  category: git
+  date: '2026-03-17'
   title: Extracting a folder from a git repository retaining history
   path: tils/git/2026-03-17-extracting_a_folder_from_a_git_repository_retaining_history.md
 - !ruby/struct:Page
