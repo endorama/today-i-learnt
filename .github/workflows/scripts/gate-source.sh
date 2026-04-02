@@ -13,5 +13,8 @@ fi
 solution=$(echo "$body" | awk '/^#+[[:space:]]+solution[[:space:]]*$/ {found=1; next} found' || true)
 echo "$solution" > solution.txt
 
+created_at=$(jq -r '.issue.created_at' "$event" | cut -dT -f1)
+
 echo "skip=false" >> "$GITHUB_OUTPUT"
 echo "source=${source}" >> "$GITHUB_OUTPUT"
+echo "date=${created_at}" >> "$GITHUB_OUTPUT"
