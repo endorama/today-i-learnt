@@ -90,6 +90,11 @@
   title: Sign all previous commit in a branch
   path: tils/git/2026-03-17-sign_all_previous_commit_in_a_branch.md
 - !ruby/struct:Page
+  category: git
+  date: '2026-04-07'
+  title: Exclude files in git not using gitignore
+  path: tils/git/2026-04-07-exclude_files_in_git_not_using_gitignore.md
+- !ruby/struct:Page
   category: golang
   date: '2019-12-13'
   title: Use module fork
