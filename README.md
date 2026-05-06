@@ -123,6 +123,7 @@ learned.
 - [List files in deb package](tils/sysadmin/2019-10-11-list_files_in_deb_package.md) on 2019-10-11
 - [Graceful nginx shutdown](tils/sysadmin/2020-11-20-graceful_nginx_shutdown.md) on 2020-11-20
 - [Querying unix sockets with curl](tils/sysadmin/2021-02-10-querying_unix_sockets_with_curl.md) on 2021-02-10
+- [Gpg trust own key](tils/sysadmin/2026-05-06-gpg_trust_own_key.md) on 2026-05-06
 
 # terraform
 
