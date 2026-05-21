@@ -4,6 +4,13 @@ From an awesome idea got from [jbranchaud](https://github.com/jbranchaud/til), a
 repository to collect all the today I learned about the more different topics I
 learned.
 
+> [!CAUTION]
+> This is reference material I use, for my own personal use.
+> Use at your own risk. Instruction may be incomplete, outdated, wrong and may lead to unexpected or undocumented data loss.
+> 
+> If you decide to use it always properly contextualizing it into the specific task being executed. Apply your
+> own judgement and don't trust them to much.
+
 # android
 
 - [Opo factory restore](tils/android/2016-04-30-opo_factory_restore.md) on 2016-04-30
@@ -41,6 +48,7 @@ learned.
 - [Sign all previous commit in a branch](tils/git/2026-03-17-sign_all_previous_commit_in_a_branch.md) on 2026-03-17
 - [Exclude files in git not using gitignore](tils/git/2026-04-07-exclude_files_in_git_not_using_gitignore.md) on 2026-04-07
 - [Git get back to previous branch](tils/git/2026-05-09-git_get_back_to_previous_branch.md) on 2026-05-09
+- [Git resolve warning branch has multiple values and pull also fails](tils/git/2026-05-19-git_resolve_warning_branch_has_multiple_values_and_pull_also_fails.md) on 2026-05-19
 
 # github
 

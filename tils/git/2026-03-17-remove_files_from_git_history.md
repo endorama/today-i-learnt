@@ -29,7 +29,7 @@ Rebase would still leave behind orphaned commit, reachable through `git reflog`.
 > If removing secrets **always rotate** them. If pushed to a public git repo, GitHub is scanned entirely every ~3m or so, so you're credentials are already gone. If not is still possible that they get cached somewhere and may be compromised. Choose the safe path, revoke them. 
 
 > [!CAUTION]
-> Better to backup the git history by cloning the repo in a separate folder. This will give you a local copy to restore commits from if needed.
+> Better to backup the git history by cloning the repo in another folder. This will give you a local copy to restore commits from if needed.
 
 
 `git-filter-repo` is needed, install it with:
@@ -44,7 +44,7 @@ cd repo-clean.git
 
 Then remove files (works with folders too)
 ```
-git filter-repo --path "config/secrets.json" --invert-paths
+git filter-repo --invert-paths --path "config/secrets.json"
 ```
 
 `--path` can be specified multiple times.
@@ -55,9 +55,19 @@ $ git remote -v
 $ git remote add origin https://.../repo.git
 ```
 
+Now force push:
+```
+$ git push --force --all 
+$ git push --force --tags
+```
+
+If the repo is hosted somewhere, check that the files have been removed before proceeding.
+Project history is still preserved in the original copy. The next steps will destroy it.
+
 Now check the repo (not bare one) to confirm it worked:
 
 ```
-cd repo git fetch origin git reset --hard origin/main
-git log --all -- path/been/removed
+$ cd original-repo
+$ git fetch origin git reset --hard origin/main
+$ git log --all -- path/been/removed
 ```

@@ -33,3 +33,15 @@ $ git push --force
 
 `git branch -M` allows to replace an existing branch. From `git branch --help`:
 > With a -m or -M option, <old-branch> will be renamed to <new-branch>. If <old-branch> had a corresponding reflog, it is renamed to match <new-branch>, and a reflog entry is created to remember the branch renaming. If <new-branch> exists, -M must be used to force the rename to happen.
+
+## Troubleshooting
+
+### 
+
+```
+$ git push --force
+fatal: The current branch split-splos-slack-channels has multiple upstream branches, refusing to push.
+```
+```
+ $ git push --set-upstream origin branch-b-new --force
+```
