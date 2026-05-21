@@ -10,10 +10,6 @@
       <td>Added on</td>
       <td>2026-05-09</td>
     </tr>
-    <tr>
-      <td>Source</td>
-      <td><a href="https://...">source</a></td>
-    </tr>
   </tbody>
 </table>
 
