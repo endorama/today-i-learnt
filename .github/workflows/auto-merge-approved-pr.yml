@@ -1,0 +1,48 @@
+name: Auto-merge approved PRs
+
+on:
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  gate-reviewer:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+    steps:
+      - name: Check reviewer and state
+        id: check
+        env:
+          REVIEWER: ${{ github.event.review.user.login }}
+          STATE: ${{ github.event.review.state }}
+        run: |
+          if [[ "$REVIEWER" != "endorama" ]]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Reviewer $REVIEWER is not endorama, skipping"
+            exit 0
+          fi
+          if [[ "$STATE" != "approved" ]]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Review state $STATE is not approved, skipping"
+            exit 0
+          fi
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+  merge:
+    needs: [gate-reviewer]
+    if: needs.gate-reviewer.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Enable auto-merge
+        run: |
+          gh pr merge "${{ github.event.pull_request.number }}" \
+            --repo "${{ github.repository }}" \
+            --squash \
+            --auto
