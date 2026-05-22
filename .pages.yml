@@ -125,6 +125,11 @@
   title: Create tar.gz file
   path: tils/golang/2020-10-24-create_tar.gz_file.md
 - !ruby/struct:Page
+  category: golang
+  date: '2026-05-21'
+  title: Pin a golang dependency to a specific version
+  path: tils/golang/2026-05-21-pin_a_golang_dependency_to_a_specific_version.md
+- !ruby/struct:Page
   category: inkscape
   date: '2016-12-06'
   title: Resize svg drawing to canvas

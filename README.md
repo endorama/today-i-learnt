@@ -59,6 +59,7 @@ learned.
 - [Use module fork](tils/golang/2019-12-13-use_module_fork.md) on 2019-12-13
 - [Template output as string](tils/golang/2020-07-30-template_output_as_string.md) on 2020-07-30
 - [Create tar.gz file](tils/golang/2020-10-24-create_tar.gz_file.md) on 2020-10-24
+- [Pin a golang dependency to a specific version](tils/golang/2026-05-21-pin_a_golang_dependency_to_a_specific_version.md) on 2026-05-21
 
 # inkscape
 
