@@ -235,6 +235,11 @@
   title: How to encrypt a pdf on linux
   path: tils/shell/2026-03-26-how_to_encrypt_a_pdf_on_linux.md
 - !ruby/struct:Page
+  category: shell
+  date: '2026-05-22'
+  title: Read secrets from macos keychain
+  path: tils/shell/2026-05-22-read_secrets_from_macos_keychain.md
+- !ruby/struct:Page
   category: sysadmin
   date: '2016-03-08'
   title: All mac addresses in LAN
