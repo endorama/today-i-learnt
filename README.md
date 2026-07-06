@@ -113,6 +113,7 @@ learned.
 - [Find hardware model on linux](tils/shell/2023-01-11-find_hardware_model_on_linux.md) on 2023-01-11
 - [How to encrypt a pdf on linux](tils/shell/2026-03-26-how_to_encrypt_a_pdf_on_linux.md) on 2026-03-26
 - [Read secrets from macos keychain](tils/shell/2026-05-22-read_secrets_from_macos_keychain.md) on 2026-05-22
+- [Display all characters in file with cat](tils/shell/2026-07-06-display_all_characters_in_file_with_cat.md) on 2026-07-06
 
 # sysadmin
 

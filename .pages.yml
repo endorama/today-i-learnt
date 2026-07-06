@@ -245,6 +245,11 @@
   title: Read secrets from macos keychain
   path: tils/shell/2026-05-22-read_secrets_from_macos_keychain.md
 - !ruby/struct:Page
+  category: shell
+  date: '2026-07-06'
+  title: Display all characters in file with cat
+  path: tils/shell/2026-07-06-display_all_characters_in_file_with_cat.md
+- !ruby/struct:Page
   category: sysadmin
   date: '2016-03-08'
   title: All mac addresses in LAN
