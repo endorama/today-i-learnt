@@ -83,6 +83,7 @@ learned.
 - [Run command as another user that has no shell](tils/linux/2018-07-18-run_command_as_another_user_that_has_no_shell.md) on 2018-07-18
 - [Find what package a file belongs to in ubuntu or debian](tils/linux/2016-12-01-find_what_package_a_file_belongs_to_in_ubuntu_or_debian.md) on 2016-12-01
 - [Dev full is a dev full](tils/linux/2022-03-14-dev_full_is_a_dev_full.md) on 2022-03-14
+- [Reduce pdf size](tils/linux/2026-07-10-reduce_pdf_size.md) on 2026-07-10
 
 # make
 

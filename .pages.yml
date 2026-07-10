@@ -185,6 +185,11 @@
   title: Dev full is a dev full
   path: tils/linux/2022-03-14-dev_full_is_a_dev_full.md
 - !ruby/struct:Page
+  category: linux
+  date: '2026-07-10'
+  title: Reduce pdf size
+  path: tils/linux/2026-07-10-reduce_pdf_size.md
+- !ruby/struct:Page
   category: make
   date: '2021-07-16'
   title: Debugging
