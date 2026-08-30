@@ -225,6 +225,11 @@
   title: Hide ruby deprecation warnings
   path: tils/ruby/2020-08-29-hide_ruby_deprecation_warnings.md
 - !ruby/struct:Page
+  category: security
+  date: '2026-05-21'
+  title: Fully remove data from hosted git repositories
+  path: tils/security/2026-05-21-fully_remove_data_from_hosted_git_repositories.md
+- !ruby/struct:Page
   category: shell
   date: '2016-02-25'
   title: Check website response time
