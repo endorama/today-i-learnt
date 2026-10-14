@@ -49,6 +49,7 @@ learned.
 - [Exclude files in git not using gitignore](tils/git/2026-04-07-exclude_files_in_git_not_using_gitignore.md) on 2026-04-07
 - [Git get back to previous branch](tils/git/2026-05-09-git_get_back_to_previous_branch.md) on 2026-05-09
 - [Git resolve warning branch has multiple values and pull also fails](tils/git/2026-05-19-git_resolve_warning_branch_has_multiple_values_and_pull_also_fails.md) on 2026-05-19
+- [Skip git hooks](tils/git/2026-10-14-skip_git_hooks.md) on 2026-10-14
 
 # github
 
